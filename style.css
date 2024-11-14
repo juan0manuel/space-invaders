@@ -1,0 +1,35 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cuadricula{
+    display: flex;
+    flex-wrap:wrap;
+    border:solid 1px;
+    width:300px;
+    height:300px;
+    margin: 0 auto;
+}
+
+.cuadricula div{
+    width: 20px;
+    height: 20px;
+}
+
+.nave{
+    background-color: blue;
+
+}
+
+.invasor{
+    background-color: green;
+    border-radius: 5px;
+}
+
+.boom{
+    background-color: red;
+}
+
+.laser{
+    background-color: orange;
+}
